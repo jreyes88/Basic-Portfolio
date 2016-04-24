@@ -12,6 +12,13 @@ h1 {
 }
 h2 {
   color: #4aaaa5;
+  font-size: 30px;
+  font-weight: 700;
+}
+h3 {
+  color: #4aaaa5;
+  font-size: 20px;
+  font-weight: 700;
 }
 body {
   color: #777777;
@@ -51,6 +58,58 @@ header {
 }
 .navigation li {
   display: inline-block;
+}
+
+/*
+  =====================================
+  Entire Body Section
+  =====================================
+*/
+.mainstuff {
+  margin-left: 156px;
+  width: 650px;
+  border-color: #cfcfcf;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+}
+
+/*
+  =====================================
+  About Section
+  =====================================
+*/
+#biopic {
+  width: 200px;
+  float: left;
+}
+p {
+  float: left;
+}
+
+/*
+  =====================================
+  Contact
+  =====================================
+*/
+.connect {
+  float: left;
+  width: 270px;
+  border-color: #cfcfcf;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+}
+img {
+  width: 70px;
+}
+
+/*
+  =====================================
+  Footer
+  =====================================
+*/
+footer {
+  clear: both;
+  background-color: #666666;
 }
 
 /*
