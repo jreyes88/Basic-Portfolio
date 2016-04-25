@@ -65,12 +65,25 @@ header {
   Entire Body Section
   =====================================
 */
+
+/*need help here
+.bodystuff {
+  padding: 960px;
+  background-image: url("../images/background.png");
+  background-color: #000000;
+}
+*/
+
 .mainstuff {
   margin-left: 156px;
+  margin-top: 40px;
+  margin-right: 45px;
   width: 650px;
   border-color: #cfcfcf;
   border-width: 1px 1px 1px 1px;
   border-style: solid;
+  float: left;
+  background-color: #ffffff
 }
 
 /*
@@ -97,6 +110,9 @@ p {
   border-color: #cfcfcf;
   border-width: 1px 1px 1px 1px;
   border-style: solid;
+  margin-top: 40px;
+  text-align: center;
+  background-color: #ffffff;
 }
 img {
   width: 70px;
@@ -108,8 +124,19 @@ img {
   =====================================
 */
 footer {
+  color: #cfcfcf;
+  font-size: 10px;
+  text-align: center;
+  height: 60px;
+  width: 100%;
   clear: both;
   background-color: #666666;
+  padding-top: 30px;
+  border-color: #4aaaa5;
+  border-width: 6px 0px 0px 0px;
+  border-style: solid;
+  position: fixed;
+  bottom: 0;
 }
 
 /*
