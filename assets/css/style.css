@@ -20,6 +20,9 @@ h3 {
   font-size: 20px;
   font-weight: 700;
 }
+p {
+  float: left;
+}
 body {
   color: #777777;
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
@@ -66,7 +69,7 @@ header {
   =====================================
 */
 
-/*need help here
+/*help
 .bodystuff {
   padding: 960px;
   background-image: url("../images/background.png");
@@ -91,11 +94,26 @@ header {
   About Section
   =====================================
 */
-#biopic {
-  width: 200px;
+
+.aboutme {
+  border-color: #cfcfcf;
+  border-width: 0px 0px 2px 0px;
+  border-style: solid;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+
+.picturebio {
+  margin-top: 15px;
+}
+
+.picturebio p {
   float: left;
 }
-p {
+
+#biopic {
+  width: 200px;
   float: left;
 }
 
