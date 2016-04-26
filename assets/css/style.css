@@ -3,10 +3,6 @@
   Custom Styles
   =====================================
 */
-html, body {
-  height: 100%;
-}
-
 h1, h2, h3, h4 {
 	font-family: "Georgia", Times, Times New Roman, serif;
 }
@@ -53,7 +49,7 @@ header {
   border-width: 0px 0px 2px 0px;
   border-style: solid;
 }
-.container {
+.logo {
   color: #ffffff;
   width: 250px;
   background: #4aaaa5;
@@ -63,12 +59,12 @@ header {
   float: left;
   text-align: center;
 }
-.navigation {
+nav {
   float: right;
   margin-right: 240px;
   margin-top: 28px;
 }
-.navigation li {
+nav li {
   display: inline-block;
 }
 
@@ -90,7 +86,7 @@ header {
   =====================================
 */
 
-.aboutme {
+.pagetitle {
   border-color: #cfcfcf;
   border-width: 0px 0px 2px 0px;
   border-style: solid;
@@ -126,7 +122,7 @@ header {
   Contact
   =====================================
 */
-.connect {
+aside {
   float: left;
   width: 270px;
   padding-bottom: 15px;
