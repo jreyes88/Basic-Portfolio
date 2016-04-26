@@ -93,10 +93,14 @@ header {
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .picturebio {
   margin-top: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .picturebio p {
