@@ -3,6 +3,10 @@
   Custom Styles
   =====================================
 */
+html, body {
+  height: 100%;
+}
+
 h1, h2, h3, h4 {
 	font-family: "Georgia", Times, Times New Roman, serif;
 }
@@ -101,12 +105,16 @@ header {
   margin-top: 15px;
   margin-left: 40px;
   margin-right: 40px;
+  padding-top: 0;
+  padding-bottom: 20px;
 }
 
 #biopic {
   width: 200px;
   float: left;
+  padding-top: 3px;
   padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 .bodystuff {
@@ -152,7 +160,7 @@ footer {
   color: #cfcfcf;
   font-size: 10px;
   text-align: center;
-  height: 50px;
+  height: 40px;
   width: 100%;
   clear: both;
   background-color: #666666;
@@ -176,9 +184,9 @@ form {
   line-height: 1.5 
 }
 input[type=text] {
-    width: 90%;
-    padding: 10px 10px 10px 10px;
-    display: block;
+  width: 90%;
+  padding: 10px 10px 10px 10px;
+  display: block;
 }
 input[name=message] {
   padding: 10px 10px 100px 10px;
@@ -188,7 +196,51 @@ input[type=submit] {
   color: #ffffff;
   font-size: 15px;
   background-color: #4aaaa5;
-  padding: 20px;
+  padding: 15px;
   width: 100px;
   border-style: none;
+}
+
+/*
+  =====================================
+  Portfolio
+  =====================================
+*/
+.portfolio-container {
+  width: 525px;
+  background-color: #ffffff;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: inline-block;
+}
+.portfolio-container img {
+  width: 230px;
+}
+.portfolio-container h2 {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  color: #4aaaa5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.portfolio-container li {
+  color: #777777;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 1.5;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+  margin-right: 25px;
+}
+.portfolio-container p {
+  position: absolute; 
+  top: 140px; 
+  width: 230px;
+  background-color: #4aaaa5;
+  color: white;
+  height: 43px;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 10px;
 }
