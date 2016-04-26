@@ -26,11 +26,16 @@ p {
 body {
   color: #777777;
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  background-image: url("../images/background.png");
+  background-color: #000000;
+}
+
 }
 body a {
   color: #777777;
   text-decoration: none;
 }
+
 
 /*
   =====================================
@@ -62,20 +67,6 @@ header {
 .navigation li {
   display: inline-block;
 }
-
-/*
-  =====================================
-  Entire Body Section
-  =====================================
-*/
-
-/*help
-.bodystuff {
-  padding: 960px;
-  background-image: url("../images/background.png");
-  background-color: #000000;
-}
-*/
 
 .mainstuff {
   margin-left: 156px;
@@ -114,6 +105,10 @@ header {
 
 #biopic {
   width: 200px;
+  float: left;
+}
+
+.bodystuff {
   float: left;
 }
 
