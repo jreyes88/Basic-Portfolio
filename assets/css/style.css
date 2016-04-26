@@ -14,6 +14,7 @@ h2 {
   color: #4aaaa5;
   font-size: 30px;
   font-weight: 700;
+  padding-left: 0px;
 }
 h3 {
   color: #4aaaa5;
@@ -22,6 +23,7 @@ h3 {
 }
 p {
   line-height: 1.5;
+  font-size: 15px;
 }
 body {
   color: #777777;
@@ -88,8 +90,8 @@ header {
   border-color: #cfcfcf;
   border-width: 0px 0px 2px 0px;
   border-style: solid;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   padding-left: 10px;
   margin-left: 40px;
   margin-right: 40px;
@@ -119,6 +121,7 @@ header {
 .connect {
   float: left;
   width: 270px;
+  padding-bottom: 15px;
   border-color: #cfcfcf;
   border-width: 1px 1px 1px 1px;
   border-style: solid;
@@ -126,8 +129,18 @@ header {
   text-align: center;
   background-color: #ffffff;
 }
+.connectheader {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-color: #cfcfcf;
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  margin-left: 40px;
+  margin-right: 40px;
+}
 img {
-  width: 70px;
+  padding-top: 15px;
+  width: 50px;
 }
 
 /*
@@ -139,7 +152,7 @@ footer {
   color: #cfcfcf;
   font-size: 10px;
   text-align: center;
-  height: 60px;
+  height: 50px;
   width: 100%;
   clear: both;
   background-color: #666666;
@@ -153,8 +166,29 @@ footer {
 
 /*
   =====================================
-  QUESTIONS:
-  -Should the navigation menu be an unordered list/display: A: Inline Block! inline? Should the "contact me" be?
-  -How to get the "|" dividing links on the navigation menu?
-  -So far I am eyeballing the height/width of the header in general...and ascribing specific pixel sizes until it looks kind of right. IDK, is the header looking okay? Is there a better way to do it?
-  -
+  Contact Form
+  =====================================
+*/
+form {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-left: 40px;
+  line-height: 1.5 
+}
+input[type=text] {
+    width: 90%;
+    padding: 10px 10px 10px 10px;
+    display: block;
+}
+input[name=message] {
+  padding: 10px 10px 100px 10px;
+}
+input[type=submit] {
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 15px;
+  background-color: #4aaaa5;
+  padding: 20px;
+  width: 100px;
+  border-style: none;
+}
